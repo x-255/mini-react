@@ -1,6 +1,13 @@
 {
   "include": ["packages/**/*"],
   "compilerOptions": {
+    "paths": {
+      "react/*": ["./packages/react/*"],
+      "react-dom/*": ["./packages/react-dom/*"],
+      "react-reconciler/*": ["./packages/react-reconciler/*"],
+      "shared/*": ["./packages/shared/*"],
+      "scheduler/*": ["./packages/scheduler/*"],
+    },
     "module": "esnext",
     "moduleResolution": "bundler",
     "target": "esnext",
