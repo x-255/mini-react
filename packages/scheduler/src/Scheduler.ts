@@ -29,7 +29,7 @@ type Callback = (arg: boolean) => Callback | null | void
 
 const taskQueue: Task[] = []
 let currentTask: Task | null = null
-let currentPriorityLevel: PriorityLevel = NoPriority
+let currentPriorityLevel: PriorityLevel = NormalPriority
 let startTime = -1
 let frameInterval = 5
 let taskIdCounter = 0
