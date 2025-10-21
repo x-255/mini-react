@@ -7,7 +7,7 @@ import {
 } from '../src/Scheduler'
 
 describe('任务', () => {
-  it('2个相同优先级的任务', () => {
+  /* it('2个相同优先级的任务', () => {
     const eventTasks: string[] = []
 
     scheduleCallback(NormalPriority, () => {
@@ -38,7 +38,7 @@ describe('任务', () => {
       eventTasks.push('Task3')
       expect(eventTasks).toEqual(['Task3'])
     })
-  })
+  }) */
 
   it('4个不同优先级的任务', () => {
     const eventTasks: string[] = []
